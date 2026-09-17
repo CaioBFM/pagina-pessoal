@@ -10,9 +10,11 @@ O projeto apresenta o mesmo portfólio pessoal em duas implementações responsi
 
 As duas versões incluem tema claro/escuro, navegação responsiva, apresentação, formação, duas iniciações científicas, experiência na Comp Júnior, representação no colegiado, competências, idiomas, interesses, projetos e contato.
 
-## Como executar
+## Deploy
 
-Abra `index.html` diretamente no navegador ou inicie um servidor local na raiz do projeto, por exemplo com a extensão Live Server do VS Code.
+A página está publicada no GitHub Pages:
+
+**[Acessar Página Pessoal](https://caiobfm.github.io/pagina-pessoal/)**
 
 ## Estrutura
 
