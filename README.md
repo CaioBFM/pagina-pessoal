@@ -32,7 +32,6 @@ pagina-pessoal/
 │       ├── css/
 │       ├── img/
 │       └── js/
-├── caio.jpeg
 ├── index.html
 ├── README.md
 └── LICENSE
