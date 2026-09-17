@@ -53,10 +53,10 @@ section[id], header[id] { scroll-margin-top: var(--nav-height); }
 .portrait { position: relative; display: block; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; object-position: center 45%; border-radius: 48% 52% 46% 54%; box-shadow: 0 24px 60px rgba(10, 60, 60, .2); }
 .location { position: absolute; right: -.5rem; bottom: 3.25rem; padding: .7rem 1rem; color: var(--ink); background: var(--surface); border: 1px solid var(--line); border-radius: 999px; font-size: .85rem; font-weight: 700; box-shadow: 0 10px 24px rgba(10, 60, 60, .12); }
 .location i { color: var(--accent); }
-.quick-facts { margin: 0 !important; overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 1rem; box-shadow: 0 16px 40px rgba(10, 60, 60, .07); }
-.fact { display: flex !important; padding: 1.35rem 1.5rem !important; align-items: center; gap: 1rem; }
+.quick-facts { min-height: 96px; margin: 1.5rem 0 0 !important; overflow: hidden; background: var(--surface); border: 1px solid var(--line); border-radius: 1.15rem; box-shadow: 0 16px 40px rgba(10, 60, 60, .07); }
+.fact { display: flex !important; min-height: 96px; padding: 1.75rem 1.65rem !important; align-items: center; gap: 1.1rem; }
 .fact + .fact { border-left: 1px solid var(--line); }
-.fact > i { color: var(--accent); font-size: 1.2rem; }
+.fact > i { color: var(--accent); font-size: 1.35rem; }
 .fact small, .fact strong { display: block; }
 .fact small { color: var(--muted); font-size: .67rem; font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 
